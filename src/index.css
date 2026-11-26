@@ -165,12 +165,12 @@ img {
 /* ---------- 5. BOTONES GENERALES ---------- */
 .btn {
   border: none;
-  border-radius: 8px;
-  padding: 10px 16px;
+  border-radius: 10px;
+  padding: 10px 18px;
   font-size: 0.95rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.2s, transform 0.1s;
+  transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
 }
 
 .btn--primario {
@@ -180,6 +180,7 @@ img {
 
 .btn--primario:hover {
   background-color: var(--verde-900);
+  box-shadow: 0 4px 10px #00000018;
 }
 
 .btn--secundario {
@@ -189,6 +190,7 @@ img {
 
 .btn--secundario:hover {
   background-color: var(--naranja-600);
+  box-shadow: 0 4px 10px #00000018;
 }
 
 .btn--peligro {
@@ -199,19 +201,23 @@ img {
 .btn--peligro:hover {
   background-color: var(--rojo-600);
   color: var(--blanco);
+  box-shadow: 0 4px 10px #00000018;
 }
 
 /* ESTADO active: efecto de "presionado" */
 .btn:active {
   transform: scale(0.97);
+  box-shadow: none;
 }
 
 /* ESTADO disabled: botón apagado y sin interacción */
 .btn:disabled {
   background-color: var(--gris-300);
   color: var(--gris-600);
+  opacity: 0.75;
   cursor: not-allowed;
   transform: none;
+  box-shadow: none;
 }
 
 /* ESTADO focus-visible: accesibilidad con teclado (Tab) */
@@ -219,10 +225,9 @@ button:focus-visible,
 a:focus-visible,
 input:focus-visible,
 select:focus-visible {
-  outline: 3px solid var(--ambar-400);
+  outline: 3px solid var(--verde-500);
   outline-offset: 2px;
 }
-
 /* ---------- 6. SECTIONS ---------- */
 .seccion {
   background-color: var(--blanco);
