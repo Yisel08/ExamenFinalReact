@@ -26,10 +26,10 @@ function SectionCatalogo() {
           de la ruta actual. "end" evita que /catalogo quede activo
           cuando estamos en /catalogo/axios. */}
       <div className="pestanas">
-        <NavLink to="/catalogo" end className="pestanas__item">
+        <NavLink to="/vitrina" end className="pestanas__item">
           Cargados con fetch
         </NavLink>
-        <NavLink to="/catalogo/axios" className="pestanas__item">
+        <NavLink to="/vitrina/axios" className="pestanas__item">
           Cargados con Axios
         </NavLink>
       </div>

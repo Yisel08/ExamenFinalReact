@@ -27,10 +27,10 @@ function SectionCompras() {
       />
 
       <div className="pestanas">
-        <NavLink to="/compras" end className="pestanas__item">
+        <NavLink to="/micanasta" end className="pestanas__item">
           Carrito ({distintos})
         </NavLink>
-        <NavLink to="/compras/resumen" className="pestanas__item">
+        <NavLink to="/micanasta/resumen" className="pestanas__item">
           Resumen de compra
         </NavLink>
       </div>
