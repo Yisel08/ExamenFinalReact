@@ -18,7 +18,7 @@ function Inicio() {
         {/* Tarjeta de la Section 1 */}
         <article className="tarjeta-inicio">
           <img src={bannerCatalogo} alt="Vista previa de la vitrina" />
-          <h3>vitrina</h3>
+          <h3>Vitrina de productos</h3>
           <p>Productos con fetch (FakeStoreAPI) y con Axios (DummyJSON).</p>
           <button
             type="button"
