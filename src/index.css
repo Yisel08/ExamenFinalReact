@@ -1,20 +1,19 @@
-/* ---------- 1. PALETA (variables con valores hexadecimales) ---------- */
 :root {
-  --verde-900: #5081c7;
-  --verde-700: #a5c495; /* color principal */
-  --verde-500: #14B8A6;
-  --verde-100: #CCFBF1;
-  --naranja-600: #EA580C; /* color secundario */
-  --naranja-500: #F97316;
-  --ambar-400: #FBBF24;
-  --rojo-600: #DC2626; /* peligro / eliminar */
-  --rojo-100: #FEE2E2;
-  --gris-900: #1F2937; /* texto */
-  --gris-600: #4B5563;
-  --gris-300: #D1D5DB;
-  --gris-100: #F3F4F6; /* fondo */
+  --verde-900: #3F5E4D; /* tono oscuro suave para navbar y botones fuertes */
+  --verde-700: #6B9080; /* color principal: salvia suave */
+  --verde-500: #84A98C; /* acento suave */
+  --verde-100: #EAF4EE; /* fondo/texto claro muy suave */
+  --naranja-600: #C86D51; /* secundario suave (terracota) */
+  --naranja-500: #D98A6C; /* botón secundario y burbuja suave */
+  --ambar-400: #E9C46A; /* resaltado cálido suave (botón activo/focus) */
+  --rojo-600: #C05656; /* eliminar / error suave */
+  --rojo-100: #FDECEC;
+  --gris-900: #2B303A; /* texto principal (menos duro que negro puro) */
+  --gris-600: #5C6470; /* texto secundario */
+  --gris-300: #DCE1E7; /* bordes suaves */
+  --gris-100: #F7F8FA; /* fondo general muy limpio */
   --blanco: #FFFFFF;
-  --sombra: 0 4px 14px #0000001A; /* negro con 10% de opacidad (#RRGGBBAA) */
+  --sombra: 0 4px 14px #00000014;
   --radio: 12px;
 }
 
