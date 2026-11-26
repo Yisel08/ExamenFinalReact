@@ -1,14 +1,3 @@
-// ============================================================
-// SectionCompras.jsx — SECTION 2
-// Ruta PADRE (/compras) con:
-//  - Imagen de portada.
-//  - Pestañas con <NavLink> hacia sus rutas hijas.
-//  - <Outlet/> donde se pinta:
-//      /compras          -> Carrito
-//      /compras/resumen  -> Resumen
-// También lee de Zustand cuántos productos distintos hay,
-// para mostrarlo en la pestaña (sin props).
-// ============================================================
 import { NavLink, Outlet } from 'react-router-dom';
 
 import banner from '../assets/banner-compras.svg';
@@ -30,7 +19,7 @@ function SectionCompras() {
         <NavLink to="/micanasta" end className="pestanas__item">
           Carrito ({distintos})
         </NavLink>
-        <NavLink to="/micanasta/resumen" className="pestanas__item">
+        <NavLink to="/mipedido/resumen" className="pestanas__item">
           Resumen de compra
         </NavLink>
       </div>

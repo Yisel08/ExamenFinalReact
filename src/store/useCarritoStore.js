@@ -1,8 +1,5 @@
 import { create } from 'zustand';
 
-// create() recibe una función que devuelve el ESTADO y las ACCIONES.
-// "set" sirve para actualizar el estado (siempre de forma inmutable:
-// creamos arreglos/objetos nuevos, nunca modificamos los existentes).
 export const useCarritoStore = create((set) => ({
   // ---------------- ESTADO ----------------
   productos: [],
