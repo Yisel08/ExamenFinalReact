@@ -27,10 +27,10 @@
 }
 
 body {
-  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Segoe UI', system-ui, -apple-system, sans-serif;
   background-color: var(--gris-100);
   color: var(--gris-900);
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 img {
