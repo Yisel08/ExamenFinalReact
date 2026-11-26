@@ -27,7 +27,7 @@ function Header() {
          <img src={logo} alt="Logo de MercaCauca" className="header__logo" />
         <div>
           <h1 className="header__titulo">MercaCauca</h1>
-          <p className="header__lema">Tu mercado en línea hecho con React</p>
+          <p className="header__lema">Tienda virtual con los mejores productos</p>
         </div>
       </div>
 
