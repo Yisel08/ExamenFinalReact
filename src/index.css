@@ -366,18 +366,14 @@ select:focus-visible {
 
 .tarjeta {
   border: 1px solid var(--gris-300);
-  border-radius: var(--radio);
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 16px;
+  padding: 18px;
+  background-color: var(--blanco);
 }
 
-/* ESTADO hover de la tarjeta: se eleva */
 .tarjeta:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--sombra);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px #00000012;
 }
 
 .tarjeta__imagen {
