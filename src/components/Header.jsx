@@ -5,6 +5,8 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+
+import logo from '../assets/logo.svg';
 import { useCarritoStore } from '../store/useCarritoStore.js';
 
 function Header() {
@@ -22,6 +24,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header__marca">
+         <img src={logo} alt="Logo de MercaCauca" className="header__logo" />
         <div>
           <h1 className="header__titulo">MercaCauca</h1>
           <p className="header__lema">Tu mercado en línea hecho con React</p>

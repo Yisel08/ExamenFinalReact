@@ -8,6 +8,9 @@ function Footer() {
 
   return (
     <footer className="footer">
+        <p>
+        © Yisela Cuetia Campo - 3223898
+      </p>
       <p>
         © {anio} MercaCauca
       </p>
